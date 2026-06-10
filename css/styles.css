@@ -20,6 +20,14 @@ h2 {
     margin: 4px;
 }
 
+li {
+    padding: 8px;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
 div.recipes {
     width: 1000px;
     border: 1px, solid, black;
@@ -27,6 +35,7 @@ div.recipes {
     display: border-box;
     background-color: lightyellow;
     border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
 .recipes h1 {
@@ -43,6 +52,7 @@ div.description,
 div.ingredients,
 div.steps {
     padding-left: 20px;
+    padding-right: 30px;
     border: 1px, solid, black;
     border-left: 0;
     border-right: 0;
@@ -58,4 +68,8 @@ div.steps {
 div.ingredients,
 div.steps {
     margin-top: 0;
+}
+
+div.description {
+    font-weight: bold;
 }
